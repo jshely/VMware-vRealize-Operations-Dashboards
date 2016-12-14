@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<AdapterKinds>
+    <AdapterKind adapterKindKey="VMWARE">
+        <ResourceKind resourceKindKey="VirtualMachine">
+            <Metric attrkey="cpu|demandPct" label="CPU Demand" unit="%"/>
+            <Metric attrkey="cpu|usage_average" label="CPU Usage" unit="%"/>
+            <Metric attrkey="mem|active_average" label="Guest Active Mem" unit="mb"/>
+            <Metric attrkey="mem|usage_average" label="Mem Usage" unit="GB"/>
+            <Metric attrkey="guestfilesystem|freespace_total" label="Guest Free Sapce" unit="gb"/>
+            <Metric attrkey="net|usage_average" label="Average Network Throughput" unit="KBps"/>
+            <Metric attrkey="net|droppedRx_summation" label="Net Dropped Rx" unit="#"/>
+            <Metric attrkey="net|droppedTx_summation" label="Net Dropped Tx" unit="#"/>
+            <Metric attrkey="virtualDisk|read_average" label="Disk Read Rate" unit="KBps"/>
+            <Metric attrkey="virtualDisk|write_average" label="Disk Write Rate" unit="KBps"/>
+            <Metric attrkey="virtualDisk:Aggregate of all instances|commandsAveraged_average" label="Disk Total IO Average" unit="#"/>
+            <Metric attrkey="Super Metric|sm_de9e1091-9b8b-42ce-9fc9-8af8a1daa508" label="Uptime (days)" unit="days"/>
+        </ResourceKind>
+    </AdapterKind>
+</AdapterKinds>

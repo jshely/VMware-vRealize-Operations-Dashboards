@@ -1,0 +1,317 @@
+{
+   "dashboards": [{
+      "autoswitchEnabled": false,
+      "columnCount": 1,
+      "columnProportion": "1",
+      "creationTime": 1472212463436,
+      "description": "",
+      "disabled": false,
+      "id": "b1448c45-88cd-4b88-be6a-a96b489ee304",
+      "importAttempts": 0,
+      "importComplete": true,
+      "isDefault": false,
+      "locked": false,
+      "name": "Applikationen/Applikation Cloud Connect",
+      "namePath": "Applikationen",
+      "rank": 13,
+      "shared": true,
+      "temporary": false,
+      "userId": "e725cdf1-9aa1-4b83-920f-6c5e1ff43950",
+      "widgetInteractions": [
+         {
+            "type": "resourceId",
+            "widgetIdProvider": "312fea04-8129-41d7-8705-4048dbf09b9c",
+            "widgetIdReceiver": "931dc30c-ab04-4f79-9733-8c01c718160f"
+         },
+         {
+            "type": "resourceId",
+            "widgetIdProvider": "312fea04-8129-41d7-8705-4048dbf09b9c",
+            "widgetIdReceiver": "119cbc90-12bb-46a5-92ff-d1ee22d3ec04"
+         },
+         {
+            "type": "resourceId",
+            "widgetIdProvider": "312fea04-8129-41d7-8705-4048dbf09b9c",
+            "widgetIdReceiver": "8c7c8e71-b3d1-4d7e-84d4-912fce7426cc"
+         },
+         {
+            "type": "resourceId",
+            "widgetIdProvider": "312fea04-8129-41d7-8705-4048dbf09b9c",
+            "widgetIdReceiver": "a708a5a5-94ba-4e2e-8bb1-0f337d3c0125"
+         },
+         {
+            "type": "resourceId",
+            "widgetIdProvider": "312fea04-8129-41d7-8705-4048dbf09b9c",
+            "widgetIdReceiver": "085243ca-2eb9-448a-bd23-d55d6385cd04"
+         },
+         {
+            "type": "metricId",
+            "widgetIdProvider": "8c7c8e71-b3d1-4d7e-84d4-912fce7426cc",
+            "widgetIdReceiver": "085243ca-2eb9-448a-bd23-d55d6385cd04"
+         }
+      ],
+      "widgets": [
+         {
+            "collapsed": false,
+            "config": {
+               "additionalColumns": [],
+               "mode": {"mode": -1},
+               "refreshContent": {"refreshContent": false},
+               "refreshInterval": 300,
+               "selectFirstRow": {"selectFirstRow": true},
+               "tagFilter": {
+                  "path": ["/source/kind_resourceKind:id:0_::_/tag:resource:id:0_::_"],
+                  "value": {
+                     "adapterInstance": [],
+                     "adapterKind": [],
+                     "bus": [],
+                     "collector": [],
+                     "day": [],
+                     "exclaim": false,
+                     "healthRange": [],
+                     "kind": [],
+                     "maintenanceSchedule": [],
+                     "state": [],
+                     "status": [],
+                     "tag": [["resource:id:0_::_"]],
+                     "tier": []
+                  }
+               },
+               "title": "CPL24 Systems"
+            },
+            "gridsterCoords": {
+               "h": 10,
+               "w": 2,
+               "x": 1,
+               "y": 1
+            },
+            "height": 350,
+            "id": "312fea04-8129-41d7-8705-4048dbf09b9c",
+            "states": [{
+               "key": "permResGrid_widget_b1448c45-88cd-4b88-be6a-a96b489ee304_312fea04-8129-41d7-8705-4048dbf09b9c",
+               "value": "o%3Acolumns%3Da%253Ao%25253Aid%25253Ds%2525253Ah1%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah2%25255Ewidth%25253Dn%2525253A182%255Eo%25253Aid%25253Ds%2525253Ah3%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah5%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah4%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah6%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah7%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah8%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah9%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah10%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah11%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah12%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah13%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah14%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah15%25255Ehidden%25253Db%2525253A0%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah16%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah17%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah18%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah19%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah20%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah21%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah22%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah23%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah24%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah25%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah26%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah27%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah28%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah29%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah30%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah31%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah32%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah33%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah34%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah35%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah36%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah37%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah38%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah39%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah40%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah41%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah42%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah43%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah44%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah45%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%255Eo%25253Aid%25253Ds%2525253Ah46%25255Ehidden%25253Db%2525253A1%25255Ewidth%25253Dn%2525253A100%5EstoreState%3Do%253Asorters%253Da%25253Ao%2525253Aroot%2525253Ds%252525253Adata%2525255Eproperty%2525253Ds%252525253AresourceKind%2525255Edirection%2525253Ds%252525253ADESC"
+            }],
+            "title": "CPL24 Systems",
+            "type": "ResourceList"
+         },
+         {
+            "collapsed": false,
+            "config": {
+               "autoZoom": {"autoSize": false},
+               "nodeSize": null,
+               "refreshContent": {"refreshContent": false},
+               "refreshInterval": 300,
+               "resourceName": "",
+               "selfProvider": {"selfProvider": false},
+               "tagFilter": null,
+               "title": "System Relationship"
+            },
+            "gridsterCoords": {
+               "h": 10,
+               "w": 4,
+               "x": 3,
+               "y": 1
+            },
+            "height": 350,
+            "id": "931dc30c-ab04-4f79-9733-8c01c718160f",
+            "states": [{
+               "key": "permResourceRelationship_widget_b1448c45-88cd-4b88-be6a-a96b489ee304_931dc30c-ab04-4f79-9733-8c01c718160f",
+               "value": "o%3A"
+            }],
+            "title": "System Relationship",
+            "type": "ResourceRelationship"
+         },
+         {
+            "collapsed": false,
+            "config": {
+               "custom": [{
+                  "lightWeightRelationships": [
+                     {
+                        "id": "extModel3192-1",
+                        "key": "widget.topologyGraph.parent",
+                        "lineStyle": "solid",
+                        "name": "",
+                        "propKeyPrefix": "",
+                        "relationship": "~child",
+                        "subType": "",
+                        "type": "~child"
+                     },
+                     {
+                        "id": "extModel3192-2",
+                        "key": "widget.topologyGraph.child",
+                        "lineStyle": "solid",
+                        "name": "",
+                        "propKeyPrefix": "",
+                        "relationship": "child",
+                        "subType": "",
+                        "type": "child"
+                     },
+                     {
+                        "id": "extModel3192-3",
+                        "key": "widget.topologyGraph.connectedTo.LWSERVICE",
+                        "lineStyle": "solid",
+                        "name": "",
+                        "propKeyPrefix": "relation",
+                        "relationship": "connectedTo",
+                        "subType": "LWSERVICE",
+                        "type": "connectedTo.LWSERVICE"
+                     }
+                  ],
+                  "selectedConfigFile": "defaultTopologyGraphConfig.xml",
+                  "selectedLayoutType": "force",
+                  "travSpecs": []
+               }],
+               "depth": 1,
+               "filterMode": {"leafExpand": true},
+               "mode": "node",
+               "refreshContent": {"refreshContent": false},
+               "refreshInterval": 300,
+               "resInteractionMode": null,
+               "resource": {"resourceName": ""},
+               "resources": [
+                  {"resourceName": ""},
+                  {"resourceName": ""}
+               ],
+               "selfProvider": {"selfProvider": false},
+               "title": "System Topology",
+               "treeType": {"treeType": false}
+            },
+            "gridsterCoords": {
+               "h": 10,
+               "w": 3,
+               "x": 1,
+               "y": 11
+            },
+            "height": 350,
+            "id": "119cbc90-12bb-46a5-92ff-d1ee22d3ec04",
+            "states": [
+               {
+                  "key": "permNewlyConfigured_widget_b1448c45-88cd-4b88-be6a-a96b489ee304_119cbc90-12bb-46a5-92ff-d1ee22d3ec04",
+                  "value": "b%3A0"
+               },
+               {
+                  "key": "permGraphData_widget_b1448c45-88cd-4b88-be6a-a96b489ee304_119cbc90-12bb-46a5-92ff-d1ee22d3ec04",
+                  "value": "s%3A%7B%22nodesMap%22%3A%7B%7D%2C%22linksMap%22%3A%7B%7D%2C%22relationshipMap%22%3A%7B%7D%2C%22expandedNodesMap%22%3A%7B%7D%2C%22layout%22%3A%7B%22zoom%22%3A0.5474040078096442%2C%22x%22%3A76.95282700292898%2C%22y%22%3A58.162055134934704%7D%2C%22links%22%3A%5B%7B%22betweenResources%22%3A%22true%22%2C%22source%22%3A%22cf2af9e6-4b99-430a-88fd-a2f4b55bd819%22%2C%22type%22%3A%22%7Echild%22%2C%22target%22%3A%2212008542-7d51-49e4-b742-aabd4c3c7351%22%2C%22lineStyle%22%3A%22solid%22%7D%2C%7B%22betweenResources%22%3A%22true%22%2C%22source%22%3A%22a6397ecb-1a04-4e79-87e8-0cfafe8e457d%22%2C%22type%22%3A%22%7Echild%22%2C%22target%22%3A%2212008542-7d51-49e4-b742-aabd4c3c7351%22%2C%22lineStyle%22%3A%22solid%22%7D%2C%7B%22betweenResources%22%3A%22true%22%2C%22source%22%3A%220dc2415c-b879-40b5-bb27-6fb16e9d8c67%22%2C%22type%22%3A%22%7Echild%22%2C%22target%22%3A%2212008542-7d51-49e4-b742-aabd4c3c7351%22%2C%22lineStyle%22%3A%22solid%22%7D%2C%7B%22betweenResources%22%3A%22true%22%2C%22source%22%3A%223260e4d2-1c40-46c1-b005-224c22da2287%22%2C%22type%22%3A%22%7Echild%22%2C%22target%22%3A%2239d85e9e-a331-448f-9871-fdf37116b7fd%22%2C%22lineStyle%22%3A%22solid%22%7D%2C%7B%22betweenResources%22%3A%22true%22%2C%22source%22%3A%223260e4d2-1c40-46c1-b005-224c22da2287%22%2C%22type%22%3A%22%7Echild%22%2C%22target%22%3A%22d033ff97-fd70-4d57-bbf6-ecf9a976c6e7%22%2C%22lineStyle%22%3A%22solid%22%7D%2C%7B%22betweenResources%22%3A%22true%22%2C%22source%22%3A%223260e4d2-1c40-46c1-b005-224c22da2287%22%2C%22type%22%3A%22child%22%2C%22target%22%3A%22a6397ecb-1a04-4e79-87e8-0cfafe8e457d%22%2C%22lineStyle%22%3A%22solid%22%7D%2C%7B%22betweenResources%22%3A%22true%22%2C%22source%22%3A%223260e4d2-1c40-46c1-b005-224c22da2287%22%2C%22type%22%3A%22%7Echild%22%2C%22target%22%3A%2212008542-7d51-49e4-b742-aabd4c3c7351%22%2C%22lineStyle%22%3A%22solid%22%7D%2C%7B%22betweenResources%22%3A%22true%22%2C%22source%22%3A%2212008542-7d51-49e4-b742-aabd4c3c7351%22%2C%22type%22%3A%22child%22%2C%22target%22%3A%22d033ff97-fd70-4d57-bbf6-ecf9a976c6e7%22%2C%22lineStyle%22%3A%22solid%22%7D%2C%7B%22betweenResources%22%3A%22true%22%2C%22source%22%3A%22cf2af9e6-4b99-430a-88fd-a2f4b55bd819%22%2C%22type%22%3A%22%7Echild%22%2C%22target%22%3A%22a9d3479c-f77d-461c-8e99-45cdbafa0498%22%2C%22lineStyle%22%3A%22solid%22%7D%2C%7B%22betweenResources%22%3A%22true%22%2C%22source%22%3A%22cf2af9e6-4b99-430a-88fd-a2f4b55bd819%22%2C%22type%22%3A%22%7Echild%22%2C%22target%22%3A%22d033ff97-fd70-4d57-bbf6-ecf9a976c6e7%22%2C%22lineStyle%22%3A%22solid%22%7D%2C%7B%22betweenResources%22%3A%22true%22%2C%22source%22%3A%223260e4d2-1c40-46c1-b005-224c22da2287%22%2C%22type%22%3A%22%7Echild%22%2C%22target%22%3A%22976ce178-0f7f-4d28-9d58-2eade3545e38%22%2C%22lineStyle%22%3A%22solid%22%7D%2C%7B%22betweenResources%22%3A%22true%22%2C%22source%22%3A%220dc2415c-b879-40b5-bb27-6fb16e9d8c67%22%2C%22type%22%3A%22%7Echild%22%2C%22target%22%3A%22a9d3479c-f77d-461c-8e99-45cdbafa0498%22%2C%22lineStyle%22%3A%22solid%22%7D%2C%7B%22betweenResources%22%3A%22true%22%2C%22source%22%3A%22a6397ecb-1a04-4e79-87e8-0cfafe8e457d%22%2C%22type%22%3A%22%7Echild%22%2C%22target%22%3A%22d033ff97-fd70-4d57-bbf6-ecf9a976c6e7%22%2C%22lineStyle%22%3A%22solid%22%7D%2C%7B%22betweenResources%22%3A%22true%22%2C%22source%22%3A%220dc2415c-b879-40b5-bb27-6fb16e9d8c67%22%2C%22type%22%3A%22%7Echild%22%2C%22target%22%3A%22d033ff97-fd70-4d57-bbf6-ecf9a976c6e7%22%2C%22lineStyle%22%3A%22solid%22%7D%2C%7B%22betweenResources%22%3A%22true%22%2C%22source%22%3A%22a6397ecb-1a04-4e79-87e8-0cfafe8e457d%22%2C%22type%22%3A%22%7Echild%22%2C%22target%22%3A%22a9d3479c-f77d-461c-8e99-45cdbafa0498%22%2C%22lineStyle%22%3A%22solid%22%7D%2C%7B%22betweenResources%22%3A%22true%22%2C%22source%22%3A%223260e4d2-1c40-46c1-b005-224c22da2287%22%2C%22type%22%3A%22child%22%2C%22target%22%3A%220dc2415c-b879-40b5-bb27-6fb16e9d8c67%22%2C%22lineStyle%22%3A%22solid%22%7D%2C%7B%22betweenResources%22%3A%22true%22%2C%22source%22%3A%223260e4d2-1c40-46c1-b005-224c22da2287%22%2C%22type%22%3A%22%7Echild%22%2C%22target%22%3A%22a9d3479c-f77d-461c-8e99-45cdbafa0498%22%2C%22lineStyle%22%3A%22solid%22%7D%2C%7B%22betweenResources%22%3A%22true%22%2C%22source%22%3A%223260e4d2-1c40-46c1-b005-224c22da2287%22%2C%22type%22%3A%22child%22%2C%22target%22%3A%22cf2af9e6-4b99-430a-88fd-a2f4b55bd819%22%2C%22lineStyle%22%3A%22solid%22%7D%2C%7B%22betweenResources%22%3A%22true%22%2C%22source%22%3A%2212008542-7d51-49e4-b742-aabd4c3c7351%22%2C%22type%22%3A%22child%22%2C%22target%22%3A%22a9d3479c-f77d-461c-8e99-45cdbafa0498%22%2C%22lineStyle%22%3A%22solid%22%7D%5D%2C%22nodes%22%3A%5B%7B%22resourceNode%22%3Atrue%2C%22metricState%22%3A0%2C%22icon%22%3A%22images/resknd/default/BrocadeFabricAdapter_Fabric.png%22%2C%22adapterkndKey%22%3A%22BrocadeFabricAdapter%22%2C%22degree%22%3A1%2C%22index%22%3A0%2C%22resknd%22%3A%22Fabric%22%2C%22uuid%22%3A%22a6397ecb-1a04-4e79-87e8-0cfafe8e457d%22%2C%22resKndId%22%3A%22002020BrocadeFabricAdapterFabric%22%2C%22reskndKey%22%3A%22Fabric%22%2C%22root%22%3Afalse%2C%22name%22%3A%22Fabric_A%22%2C%22healthColor%22%3A%22%23309948%22%2C%22darkerHealthColor%22%3A%22%23216b32%22%2C%22properties%22%3A%5B%5D%2C%22notInState%22%3Afalse%2C%22radius%22%3A33%2C%22weight%22%3A4%2C%22x%22%3A458.0906465556657%2C%22y%22%3A26.945960220522785%2C%22px%22%3A459.15741933460254%2C%22py%22%3A27.946888227246824%2C%22x0%22%3A458.7674989017044%2C%22y0%22%3A27.846338722631174%2C%22efficiencyColor%22%3A%22%23309948%22%2C%22healthState%22%3A0%2C%22darkerRiskColor%22%3A%22%23216b32%22%2C%22efficiencyState%22%3A0%2C%22darkerEfficiencyColor%22%3A%22%23216b32%22%2C%22riskColor%22%3A%22%23309948%22%2C%22riskState%22%3A0%2C%22tooltipId%22%3A%22tooltip_a6397ecb-1a04-4e79-87e8-0cfafe8e457d_1481705985770%22%2C%22fixed%22%3Atrue%7D%2C%7B%22resourceNode%22%3Atrue%2C%22metricState%22%3A0%2C%22icon%22%3A%22images/resknd/custom/Container_Environment.png%22%2C%22adapterkndKey%22%3A%22Container%22%2C%22degree%22%3A1%2C%22index%22%3A1%2C%22resknd%22%3A%22Umgebung%22%2C%22uuid%22%3A%2212008542-7d51-49e4-b742-aabd4c3c7351%22%2C%22resKndId%22%3A%22002009ContainerEnvironment%22%2C%22reskndKey%22%3A%22Environment%22%2C%22root%22%3Afalse%2C%22name%22%3A%22VBC-Management%22%2C%22healthColor%22%3A%22%23309948%22%2C%22darkerHealthColor%22%3A%22%23216b32%22%2C%22properties%22%3A%5B%5D%2C%22notInState%22%3Afalse%2C%22radius%22%3A33%2C%22weight%22%3A6%2C%22x%22%3A678.1177017197326%2C%22y%22%3A46.69660039071592%2C%22px%22%3A677.4658519869926%2C%22py%22%3A46.96382980233457%2C%22x0%22%3A678.1177017197326%2C%22y0%22%3A46.69660039071592%2C%22efficiencyColor%22%3A%22%23309948%22%2C%22healthState%22%3A0%2C%22darkerRiskColor%22%3A%22%23216b32%22%2C%22efficiencyState%22%3A0%2C%22darkerEfficiencyColor%22%3A%22%23216b32%22%2C%22riskColor%22%3A%22%23309948%22%2C%22riskState%22%3A0%2C%22tooltipId%22%3A%22tooltip_12008542-7d51-49e4-b742-aabd4c3c7351_1481705985770%22%2C%22fixed%22%3Atrue%7D%2C%7B%22resourceNode%22%3Atrue%2C%22metricState%22%3A0%2C%22icon%22%3A%22images/resknd/default/VMWARE_Datastore.png%22%2C%22adapterkndKey%22%3A%22VMWARE%22%2C%22degree%22%3A1%2C%22index%22%3A2%2C%22resknd%22%3A%22Datenspeicher%22%2C%22uuid%22%3A%220dc2415c-b879-40b5-bb27-6fb16e9d8c67%22%2C%22resKndId%22%3A%22002006VMWAREDatastore%22%2C%22reskndKey%22%3A%22Datastore%22%2C%22root%22%3Afalse%2C%22name%22%3A%22CC01CCM-C02-sla2-G-DS101%22%2C%22healthColor%22%3A%22%23309948%22%2C%22darkerHealthColor%22%3A%22%23216b32%22%2C%22properties%22%3A%5B%5D%2C%22notInState%22%3Afalse%2C%22radius%22%3A33%2C%22weight%22%3A4%2C%22x%22%3A471.17610318701117%2C%22y%22%3A91.63576486352027%2C%22px%22%3A471.96023930789414%2C%22py%22%3A91.06421025942686%2C%22x0%22%3A471.9261650146403%2C%22y0%22%3A92.52129141784596%2C%22efficiencyColor%22%3A%22%23309948%22%2C%22healthState%22%3A0%2C%22darkerRiskColor%22%3A%22%23216b32%22%2C%22efficiencyState%22%3A0%2C%22darkerEfficiencyColor%22%3A%22%23216b32%22%2C%22riskColor%22%3A%22%23309948%22%2C%22riskState%22%3A0%2C%22tooltipId%22%3A%22tooltip_0dc2415c-b879-40b5-bb27-6fb16e9d8c67_1481705985770%22%2C%22fixed%22%3Atrue%7D%2C%7B%22resourceNode%22%3Atrue%2C%22metricState%22%3A0%2C%22icon%22%3A%22images/resknd/default/VMWARE_HostSystem.png%22%2C%22adapterkndKey%22%3A%22VMWARE%22%2C%22degree%22%3A1%2C%22index%22%3A3%2C%22resknd%22%3A%22Hostsystem%22%2C%22uuid%22%3A%22d033ff97-fd70-4d57-bbf6-ecf9a976c6e7%22%2C%22resKndId%22%3A%22002006VMWAREHostSystem%22%2C%22reskndKey%22%3A%22HostSystem%22%2C%22root%22%3Afalse%2C%22name%22%3A%22cc01esx0100.vop.loc%22%2C%22healthColor%22%3A%22%23309948%22%2C%22darkerHealthColor%22%3A%22%23216b32%22%2C%22properties%22%3A%5B%5D%2C%22notInState%22%3Afalse%2C%22radius%22%3A33%2C%22weight%22%3A5%2C%22x%22%3A511.15406267951255%2C%22y%22%3A-34.68335972673785%2C%22px%22%3A511.8353149908686%2C%22py%22%3A-33.13140213123567%2C%22x0%22%3A511.15406267951255%2C%22y0%22%3A-34.68335972673785%2C%22efficiencyColor%22%3A%22%23309948%22%2C%22healthState%22%3A0%2C%22darkerRiskColor%22%3A%22%23216b32%22%2C%22efficiencyState%22%3A0%2C%22darkerEfficiencyColor%22%3A%22%23216b32%22%2C%22riskColor%22%3A%22%23309948%22%2C%22riskState%22%3A0%2C%22tooltipId%22%3A%22tooltip_d033ff97-fd70-4d57-bbf6-ecf9a976c6e7_1481705985770%22%2C%22fixed%22%3Atrue%7D%2C%7B%22resourceNode%22%3Atrue%2C%22metricState%22%3A0%2C%22icon%22%3A%22images/resknd/default/BrocadeFabricAdapter_Fabric.png%22%2C%22adapterkndKey%22%3A%22BrocadeFabricAdapter%22%2C%22degree%22%3A1%2C%22index%22%3A4%2C%22resknd%22%3A%22Fabric%22%2C%22uuid%22%3A%22cf2af9e6-4b99-430a-88fd-a2f4b55bd819%22%2C%22resKndId%22%3A%22002020BrocadeFabricAdapterFabric%22%2C%22reskndKey%22%3A%22Fabric%22%2C%22root%22%3Afalse%2C%22name%22%3A%22Fabric_b%22%2C%22healthColor%22%3A%22%23309948%22%2C%22darkerHealthColor%22%3A%22%23216b32%22%2C%22properties%22%3A%5B%5D%2C%22notInState%22%3Afalse%2C%22radius%22%3A33%2C%22weight%22%3A4%2C%22x%22%3A602.7921810058864%2C%22y%22%3A-59.381706330382876%2C%22px%22%3A602.6684611882372%2C%22py%22%3A-58.35509703294976%2C%22x0%22%3A604.6545382996284%2C%22y0%22%3A-57.07243001486158%2C%22efficiencyColor%22%3A%22%23309948%22%2C%22healthState%22%3A0%2C%22darkerRiskColor%22%3A%22%23216b32%22%2C%22efficiencyState%22%3A0%2C%22darkerEfficiencyColor%22%3A%22%23216b32%22%2C%22riskColor%22%3A%22%23309948%22%2C%22riskState%22%3A0%2C%22tooltipId%22%3A%22tooltip_cf2af9e6-4b99-430a-88fd-a2f4b55bd819_1481705985770%22%2C%22fixed%22%3Atrue%7D%2C%7B%22resourceNode%22%3Atrue%2C%22metricState%22%3A0%2C%22icon%22%3A%22images/resknd/default/VMWARE_HostSystem.png%22%2C%22adapterkndKey%22%3A%22VMWARE%22%2C%22degree%22%3A1%2C%22index%22%3A5%2C%22resknd%22%3A%22Hostsystem%22%2C%22uuid%22%3A%22a9d3479c-f77d-461c-8e99-45cdbafa0498%22%2C%22resKndId%22%3A%22002006VMWAREHostSystem%22%2C%22reskndKey%22%3A%22HostSystem%22%2C%22root%22%3Afalse%2C%22name%22%3A%22cc01esx0101.vop.loc%22%2C%22healthColor%22%3A%22%23309948%22%2C%22darkerHealthColor%22%3A%22%23216b32%22%2C%22properties%22%3A%5B%5D%2C%22notInState%22%3Afalse%2C%22radius%22%3A33%2C%22weight%22%3A5%2C%22x%22%3A546.849204735481%2C%22y%22%3A20.83111436429754%2C%22px%22%3A546.7165031032148%2C%22py%22%3A21.000847201479374%2C%22x0%22%3A548.7921740703134%2C%22y0%22%3A23.04162386505%2C%22efficiencyColor%22%3A%22%23309948%22%2C%22healthState%22%3A0%2C%22darkerRiskColor%22%3A%22%23216b32%22%2C%22efficiencyState%22%3A0%2C%22darkerEfficiencyColor%22%3A%22%23216b32%22%2C%22riskColor%22%3A%22%23309948%22%2C%22riskState%22%3A0%2C%22tooltipId%22%3A%22tooltip_a9d3479c-f77d-461c-8e99-45cdbafa0498_1481705985770%22%2C%22fixed%22%3Atrue%7D%2C%7B%22resourceNode%22%3Atrue%2C%22metricState%22%3A0%2C%22icon%22%3A%22images/resknd/default/VMWARE_VirtualMachine.png%22%2C%22adapterkndKey%22%3A%22VMWARE%22%2C%22degree%22%3A0%2C%22index%22%3A6%2C%22resknd%22%3A%22Virtuelle%20Maschine%22%2C%22uuid%22%3A%223260e4d2-1c40-46c1-b005-224c22da2287%22%2C%22resKndId%22%3A%22002006VMWAREVirtualMachine%22%2C%22reskndKey%22%3A%22VirtualMachine%22%2C%22root%22%3Afalse%2C%22name%22%3A%22CC01VCG0001%22%2C%22healthColor%22%3A%22%23309948%22%2C%22darkerHealthColor%22%3A%22%23216b32%22%2C%22properties%22%3A%5B%5D%2C%22notInState%22%3Afalse%2C%22x%22%3A592.1767348033203%2C%22y%22%3A185.4980907703551%2C%22radius%22%3A33%2C%22weight%22%3A8%2C%22px%22%3A592.1593169184462%2C%22py%22%3A184.99022238312105%2C%22x0%22%3A593.294029175752%2C%22y0%22%3A186.524931465314%2C%22efficiencyColor%22%3A%22%23309948%22%2C%22healthState%22%3A0%2C%22darkerRiskColor%22%3A%22%23216b32%22%2C%22efficiencyState%22%3A0%2C%22darkerEfficiencyColor%22%3A%22%23216b32%22%2C%22riskColor%22%3A%22%23309948%22%2C%22riskState%22%3A0%2C%22tooltipId%22%3A%22tooltip_3260e4d2-1c40-46c1-b005-224c22da2287_1481705985770%22%2C%22fixed%22%3Atrue%7D%2C%7B%22resourceNode%22%3Atrue%2C%22metricState%22%3A0%2C%22icon%22%3A%22images/resknd/custom/Container_Function.png%22%2C%22adapterkndKey%22%3A%22Container%22%2C%22degree%22%3A1%2C%22index%22%3A7%2C%22resknd%22%3A%22Funktion%22%2C%22uuid%22%3A%2239d85e9e-a331-448f-9871-fdf37116b7fd%22%2C%22resKndId%22%3A%22002009ContainerFunction%22%2C%22reskndKey%22%3A%22Function%22%2C%22root%22%3Afalse%2C%22name%22%3A%22Veeam%20VCC%22%2C%22healthColor%22%3A%22%23309948%22%2C%22darkerHealthColor%22%3A%22%23216b32%22%2C%22properties%22%3A%5B%5D%2C%22notInState%22%3Afalse%2C%22radius%22%3A33%2C%22weight%22%3A1%2C%22x%22%3A709.4096582948289%2C%22y%22%3A345.4629995295353%2C%22px%22%3A709.3478992665606%2C%22py%22%3A345.3328922138542%2C%22x0%22%3A710.0793418046358%2C%22y0%22%3A345.9940641637758%2C%22efficiencyColor%22%3A%22%23309948%22%2C%22healthState%22%3A0%2C%22darkerRiskColor%22%3A%22%23216b32%22%2C%22efficiencyState%22%3A0%2C%22darkerEfficiencyColor%22%3A%22%23216b32%22%2C%22riskColor%22%3A%22%23309948%22%2C%22riskState%22%3A0%2C%22tooltipId%22%3A%22tooltip_39d85e9e-a331-448f-9871-fdf37116b7fd_1481705985770%22%2C%22fixed%22%3Atrue%7D%2C%7B%22resourceNode%22%3Atrue%2C%22metricState%22%3A0%2C%22icon%22%3A%22images/resknd/default/VMWARE_VMFolder.png%22%2C%22adapterkndKey%22%3A%22VMWARE%22%2C%22degree%22%3A1%2C%22index%22%3A8%2C%22resknd%22%3A%22Ordner%20der%20virtuellen%20Maschine%22%2C%22uuid%22%3A%22976ce178-0f7f-4d28-9d58-2eade3545e38%22%2C%22resKndId%22%3A%22002006VMWAREVMFolder%22%2C%22reskndKey%22%3A%22VMFolder%22%2C%22root%22%3Afalse%2C%22name%22%3A%22Management%22%2C%22healthColor%22%3A%22%23309948%22%2C%22darkerHealthColor%22%3A%22%23216b32%22%2C%22properties%22%3A%5B%5D%2C%22notInState%22%3Afalse%2C%22radius%22%3A33%2C%22weight%22%3A1%2C%22x%22%3A561.8209179707679%2C%22y%22%3A378.48037429423323%2C%22px%22%3A562.1429313703853%2C%22py%22%3A378.27574197979027%2C%22x0%22%3A563.2514227153698%2C%22y0%22%3A379.528145920987%2C%22efficiencyColor%22%3A%22%23309948%22%2C%22healthState%22%3A0%2C%22darkerRiskColor%22%3A%22%23216b32%22%2C%22efficiencyState%22%3A0%2C%22darkerEfficiencyColor%22%3A%22%23216b32%22%2C%22riskColor%22%3A%22%23309948%22%2C%22riskState%22%3A0%2C%22tooltipId%22%3A%22tooltip_976ce178-0f7f-4d28-9d58-2eade3545e38_1481705985770%22%2C%22fixed%22%3Atrue%7D%5D%2C%22removedNodesMap%22%3A%7B%7D%7D"
+               }
+            ],
+            "title": "System Topology",
+            "type": "TopologyGraph"
+         },
+         {
+            "collapsed": false,
+            "config": {
+               "boxColumns": 3,
+               "boxHeight": null,
+               "labelSize": 12,
+               "metric": {
+                  "mode": "resource",
+                  "resourceKindMetrics": [],
+                  "resourceMetrics": []
+               },
+               "mode": {"layoutMode": "fixedView"},
+               "periodLength": null,
+               "refreshContent": {"refreshContent": false},
+               "refreshInterval": 300,
+               "resInteractionMode": "Application",
+               "roundDecimals": null,
+               "selfProvider": {"selfProvider": false},
+               "showMetricName": {"showMetricName": true},
+               "showMetricUnit": {"showMetricUnit": true},
+               "showResourceName": {"showResourceName": false},
+               "showSparkline": {"showSparkline": false},
+               "title": "Scoreboard",
+               "valueSize": 24,
+               "visualTheme": 3
+            },
+            "gridsterCoords": {
+               "h": 10,
+               "w": 3,
+               "x": 4,
+               "y": 11
+            },
+            "height": 350,
+            "id": "8c7c8e71-b3d1-4d7e-84d4-912fce7426cc",
+            "title": "Scoreboard",
+            "type": "Scoreboard"
+         },
+         {
+            "collapsed": false,
+            "config": {
+               "metric": {
+                  "mode": "resource",
+                  "resourceKindMetrics": [],
+                  "resourceMetrics": []
+               },
+               "refreshContent": {"refreshContent": false},
+               "refreshInterval": 300,
+               "resInteractionMode": "Application",
+               "selfProvider": {"selfProvider": false},
+               "title": "System List"
+            },
+            "gridsterCoords": {
+               "h": 13,
+               "w": 3,
+               "x": 1,
+               "y": 21
+            },
+            "height": 458,
+            "id": "a708a5a5-94ba-4e2e-8bb1-0f337d3c0125",
+            "title": "System List",
+            "type": "PropertyList"
+         },
+         {
+            "collapsed": false,
+            "config": {
+               "refreshContent": {"refreshContent": false},
+               "refreshInterval": 300,
+               "resInteractionMode": "Application",
+               "resourceMetrics": [],
+               "selfProvider": {"selfProvider": false},
+               "title": "System Metric Chart"
+            },
+            "gridsterCoords": {
+               "h": 13,
+               "w": 3,
+               "x": 4,
+               "y": 21
+            },
+            "height": 458,
+            "id": "085243ca-2eb9-448a-bd23-d55d6385cd04",
+            "states": [
+               {
+                  "key": "permMetricChart_widget_b1448c45-88cd-4b88-be6a-a96b489ee304_085243ca-2eb9-448a-bd23-d55d6385cd04",
+                  "value": "o%3A"
+               },
+               {
+                  "key": "permBtn_pan_permMetricChart_widget_b1448c45-88cd-4b88-be6a-a96b489ee304_085243ca-2eb9-448a-bd23-d55d6385cd04",
+                  "value": "b%3A0"
+               },
+               {
+                  "key": "permBtn_zoomAllGraphs_permMetricChart_widget_b1448c45-88cd-4b88-be6a-a96b489ee304_085243ca-2eb9-448a-bd23-d55d6385cd04",
+                  "value": "b%3A0"
+               },
+               {
+                  "key": "permDateRange1_permMetricChart_widget_b1448c45-88cd-4b88-be6a-a96b489ee304_085243ca-2eb9-448a-bd23-d55d6385cd04",
+                  "value": "s%3A%7B%22dateRange%22%3A%22last6Hour%22%2C%22dateFrom%22%3Anull%2C%22dateTo%22%3Anull%2C%22timeFrom%22%3Anull%2C%22timeTo%22%3Anull%7D"
+               }
+            ],
+            "title": "System Metric Chart",
+            "type": "MetricChart"
+         }
+      ]
+   }],
+   "entries": {
+      "resource": [{
+         "adapterKindKey": "Container",
+         "identifiers": [],
+         "internalId": "resource:id:0_::_",
+         "name": "Veeam VCC",
+         "resourceKindKey": "Function"
+      }],
+      "resourceKind": [{
+         "adapterKindKey": "Container",
+         "internalId": "resourceKind:id:0_::_",
+         "resourceKindKey": "Function"
+      }]
+   },
+   "uuid": "ab9fa799-e8b9-46f2-81a6-803f0f18f40c"
+}
