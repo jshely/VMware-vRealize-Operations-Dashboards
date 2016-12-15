@@ -8,3 +8,5 @@ If you are contributing content, please ensure you add Lists, Views, and Super M
 Please contact jshely@vmware.com to provide feedback
 
 Looking forward to building a great repository!
+
+PS-this is work in progress.  Thanks for your understanding.
