@@ -1,5 +1,5 @@
 # VMware-vRealize-Operations-Dashboards
-Repository for VMware vRealize Operations Dashboards from the community
+Repository for VMware vRealize Operations Dashboards from the community.  
 We will build a version repository and create branches by version
 The goal is to ensure that each version is segregated to avoid mixing dashboard versions
 
